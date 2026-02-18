@@ -19,7 +19,7 @@ const team = [
     role: "Consultant Oral & Maxillofacial Surgeon",
   },
   {
-    name: "Dr. Shashikala Kumari V",
+    name: "Dr. Shashikala V",
     role: "Consultant Orthodontist",
   },
   {

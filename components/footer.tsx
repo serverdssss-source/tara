@@ -27,7 +27,7 @@ export default function Footer() {
   return (
     <footer className="relative text-[#fffdf5] font-sans overflow-hidden">
       <Image
-        src="/images/banner-website (1).png"
+        src="/images/banner-website(1).png"
         alt="Footer background"
         fill
         className="object-cover"
@@ -49,8 +49,8 @@ export default function Footer() {
             <div className="space-y-4 pt-2">
               <div>
                 <h4 className="font-bold text-sm mb-1 text-[#fffdf5]">Clinic Timings:</h4>
-                <p className="text-[#fffdf5]/70 text-sm">Morning: 10:00 AM – 2:00 PM</p>
-                <p className="text-[#fffdf5]/70 text-sm">Evening: 4:00 PM – 8:30 PM</p>
+                <p className="text-[#fffdf5]/70 text-sm">Mon - Sat: 10:00 AM – 9:30 PM</p>
+                <p className="text-[#fffdf5]/70 text-sm">Sunday: 10:00 AM – 12:00 PM</p>
               </div>
 
               <div>

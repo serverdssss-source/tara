@@ -27,7 +27,7 @@ const team = [
     bio: "Dr. Prashanthi specializes in surgical interventions for facial and oral conditions, ensuring patient comfort and optimal recovery outcomes.",
   },
   {
-    name: "Dr. Shashikala Kumari V",
+    name: "Dr. Shashikala V",
     role: "Consultant Orthodontist & Dentofacial Orthopaedics Specialist",
     bio: "Dedicated to correcting misaligned teeth and jaws, Dr. Shashikala approaches orthodontics with a focus on facial balance and long-term dental health.",
   },
@@ -40,6 +40,16 @@ const team = [
     name: "Dr. Manoranjan S. J.",
     role: "Consultant Periodontist",
     bio: "Focusing on the supporting structures of teeth, Dr. Manoranjan treats gum diseases and places dental implants, ensuring a strong foundation for your smile.",
+  },
+  {
+    name: "Dr. Vignesh V",
+    role: "Resident - Associate Dentist",
+    bio: "A dedicated Associate Dentist committed to providing quality dental care and ensuring patient comfort during treatments.",
+  },
+  {
+    name: "Dr. Dinesh Bhadrashetty",
+    role: "Consultant Oral & Maxillofacial Surgeon | Specialist in Oral Implants",
+    bio: "With over 33 years of clinical experience, Dr. Dinesh Bhadrashetty is a leading Oral & Maxillofacial Surgeon renowned for his expertise in advanced surgical care and oral implantology. Dr. Bhadrashetty combines precision, modern technology, and a patient-focused approach to deliver safe, effective solutions tailored for both functional and aesthetic outcomes. His deep experience in oral implants makes him a trusted expert in restoring missing teeth with long-lasting, natural-looking results.",
   },
 ]
 

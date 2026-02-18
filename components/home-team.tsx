@@ -19,7 +19,7 @@ const team = [
     role: "Consultant Oral & Maxillofacial Surgeon",
   },
   {
-    name: "Dr. Shashikala Kumari V",
+    name: "Dr. Shashikala V",
     role: "Consultant Orthodontist",
   },
   {
@@ -29,6 +29,14 @@ const team = [
   {
     name: "Dr. Manoranjan S. J.",
     role: "Consultant Periodontist",
+  },
+  {
+    name: "Dr. Vignesh V",
+    role: "Resident - Associate Dentist",
+  },
+  {
+    name: "Dr. Dinesh Bhadrashetty",
+    role: "Consultant Oral & Maxillofacial Surgeon | Specialist in Oral Implants",
   },
 ]
 

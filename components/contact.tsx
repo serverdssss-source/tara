@@ -147,9 +147,8 @@ export default function Contact({ hideHeader = false }: { hideHeader?: boolean }
                 <div>
                   <p className="font-medium text-sm">Opening Hours</p>
                   <div className="text-[#d2ceab]/70 text-sm mt-1 space-y-1">
-                    <p>Mon - Fri: 10:00 AM - 7:00 PM</p>
-                    <p>Saturday: 10:00 AM - 5:00 PM</p>
-                    <p>Sunday: Closed</p>
+                    <p>Mon - Sat: 10:00 AM - 9:30 PM</p>
+                    <p>Sunday: 10:00 AM - 12:00 PM</p>
                   </div>
                 </div>
               </div>
