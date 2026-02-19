@@ -32,11 +32,11 @@ export default function About() {
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-foreground leading-tight text-balance mb-6">
               Your Gateway to Health
             </h2>
-            <p className="text-muted-foreground leading-relaxed mb-6">
+            <p className="text-muted-foreground text-lg leading-relaxed mb-6">
               At TARA Dental Aesthetics & Wellness, we believe that a beautiful, healthy smile begins with trust, comfort, and quality care. Nestled in the heart of Konanakunte, our clinic has grown into a preferred destination for comprehensive dental treatment in South Bengaluru.
             </p>
-            <p className="text-muted-foreground leading-relaxed mb-10">
-              Founded with a vision to offer world-class dental services with a personalized touch, we combine compassion, advanced technology, and international dental standards to help our patients achieve confident, lasting smiles.
+            <p className="text-muted-foreground text-lg leading-relaxed mb-10">
+              At TARA Dental Aesthetics and Wellness, Dr. M. S. Srinivas Gowda leads the team with a philosophy that blends clinical expertise, compassionate care, and a commitment to lifelong dental wellness. Our vision is to create healthy, confident smiles for every patient in Bengaluru through personalised, ethical, and state-of-the-art dental care.
             </p>
 
             <div className="grid grid-cols-2 gap-6">

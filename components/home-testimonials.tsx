@@ -7,25 +7,29 @@ const testimonials = [
     {
         name: "Priya S.",
         location: "Konanakunte",
-        treatment: "Root Canal Treatment",
-        quote:
-            "Single-day root canal done with precision and care. Completely stress-free experience.",
+        treatment: "Single-Day RCT",
+        quote: "Dr. Srinivas Gowda completed my single-day root canal (RCT) with precision and care. Dr. Vani Hegde and the team made me feel comfortable throughout. Highly recommend for dental care",
         rating: 5,
     },
     {
         name: "Ramesh K.",
         location: "Bikaspura",
         treatment: "Dental Implants",
-        quote:
-            "My dental implants look natural and feel perfect. Truly expert care.",
+        quote: "I received dental implants guided by Dr. Srinivas Gowda, with prosthetic support from Dr. Gautam Shetty. My smile looks natural and perfect.",
         rating: 5,
     },
     {
         name: "Ananya R.",
         location: "Kumaraswamy Layout",
         treatment: "Smile Makeover",
-        quote:
-            "Flawless smile makeover with great attention to detail. Highly recommended.",
+        quote: "Thanks to Dr. Srinivas Gowda, my smile makeover was flawless. Dr. Shashikala Kumari helped perfect my bite. Excellent cosmetic dental care near Konanakunte.",
+        rating: 5,
+    },
+    {
+        name: "Sameer P.",
+        location: "Konanakunte",
+        treatment: "Single-Day RCT",
+        quote: "I was nervous about my root canal, but Dr. Srinivas Gowda made it stress‑free. Single‑day RCT completed with care. Dr. Vani Hegde’s finishing touch was amazing!",
         rating: 5,
     },
 ]

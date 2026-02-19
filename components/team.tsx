@@ -9,7 +9,15 @@ const team = [
     name: "Dr. M. S. Srinivas Gowda",
     role: "Chief Dental Surgeon",
     designation: "Founder – TARA Dental Aesthetics & Wellness",
-    bio: "Dr. M S Srinivas Gowda is a Dental Surgeon in Konanakunte, Bangalore and has an experience of 23 years in this field. Dr. M S Srinivas Gowda practices at Shree Tara Dental Care in Konanakunte, Bangalore. He completed BDS from Dayananda Sagar  Bangalore in 2000. Some of the services provided by the doctor are: Artificial Teeth, Dental Care, Tooth Extraction, Dental Implant Surgery and Complete/Partial Dentures Fixing etc.",
+    bio: `Dr M. S. Srinivas Gowda is a renowned dental surgeon with over 22 years of clinical experience, committed to transforming smiles and advancing dental care in Bengaluru, with a career built on compassionate care and clinical excellence.
+
+From the moment he began his practice, Dr Srinivas demonstrated a sincere commitment to patient-centric dentistry, blending technical precision with gentle, reassuring care for individuals and families alike. His extensive experience spans the full spectrum of dental treatments, including preventive care, dentures, cosmetic procedures, and advanced restorative solutions.
+
+Dr Srinivas stays attuned to the latest developments in dentistry through continuous learning and professional engagement, ensuring every patient receives treatments that are both modern and effective. His approach is rooted in ethical transparency and personalized treatment planning, helping patients make informed decisions about their oral health.
+
+Beloved by his patients for his calm demeanour and clear communication, Dr Srinivas brings meticulous attention to detail to every case - whether it’s a routine dental cleaning or a complete smile makeover.
+
+At TARA Dental Aesthetics and Wellness, Dr. M. S. Srinivas Gowda leads the team with a philosophy that blends clinical expertise, compassionate care, and a commitment to lifelong dental wellness. Our vision is to create healthy, confident smiles for every patient in Bengaluru through personalised, ethical, and state-of-the-art dental care.`,
   },
   {
     name: "Dr. Gautam Shetty",
@@ -139,9 +147,15 @@ export default function Team({ hideHeader = false }: { hideHeader?: boolean }) {
                     <p className="text-[#bd9d7d] text-sm font-bold uppercase tracking-wider mb-4">
                       {founder.role.split(" | ")[0]} | Founder
                     </p>
-                    <p className="text-[#fffdf5]/80 text-sm md:text-base italic leading-relaxed">
+                    <p className="text-[#fffdf5]/80 text-sm md:text-base italic leading-relaxed mb-6">
                       "At TARA, we address oral health as an integral component of systemic health."
                     </p>
+                    <button
+                      className="inline-flex items-center gap-2 text-[#bd9d7d] font-bold tracking-wide uppercase text-sm hover:text-[#fffdf5] transition-colors"
+                    >
+                      Read More
+                      <ChevronRight className="w-4 h-4" />
+                    </button>
                   </div>
                 </div>
               </div>
@@ -181,7 +195,7 @@ export default function Team({ hideHeader = false }: { hideHeader?: boolean }) {
               initial={{ opacity: 0, scale: 0.95, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: 20 }}
-              className="relative w-full max-w-lg bg-[#fffdf5] rounded-3xl shadow-2xl overflow-hidden z-10"
+              className="relative w-full max-w-4xl bg-[#fffdf5] rounded-3xl shadow-2xl overflow-hidden z-10 max-h-[90vh] flex flex-col"
             >
               <button
                 onClick={() => setSelectedMember(null)}
@@ -190,26 +204,31 @@ export default function Team({ hideHeader = false }: { hideHeader?: boolean }) {
                 <X className="w-5 h-5" />
               </button>
 
-              <div className="p-8 sm:p-10">
-                <div className="w-24 h-24 rounded-full bg-[#8b9974]/10 mb-6 flex items-center justify-center mx-auto">
-                  <User className="w-10 h-10 text-[#505b3f]" />
-                </div>
+              <div className="flex flex-col md:flex-row h-full overflow-hidden">
+                {/* Sidebar / Header Section */}
+                <div className="p-8 pb-0 md:p-10 md:w-1/3 md:border-r border-[#505b3f]/10 flex flex-col items-center md:items-start text-center md:text-left shrink-0 overflow-y-auto custom-scrollbar">
+                  <div className="w-24 h-24 rounded-full bg-[#8b9974]/10 mb-6 flex items-center justify-center shrink-0">
+                    <User className="w-10 h-10 text-[#505b3f]" />
+                  </div>
 
-                <div className="text-center mb-8">
-                  <h3 className="font-serif text-2xl sm:text-3xl text-[#505b3f] mb-2">
+                  <h3 className="font-serif text-2xl sm:text-3xl text-[#505b3f] mb-2 leading-tight">
                     {selectedMember.name}
                   </h3>
-                  <p className="text-[#bd9d7d] text-sm font-bold uppercase tracking-widest mb-1">
+                  <p className="text-[#bd9d7d] text-sm font-bold uppercase tracking-widest mb-2">
                     {selectedMember.role}
                   </p>
                   {selectedMember.designation && (
-                    <p className="text-[#505b3f]/70 text-sm mt-1">{selectedMember.designation}</p>
+                    <p className="text-[#505b3f]/70 text-sm italic">{selectedMember.designation}</p>
                   )}
                 </div>
 
-                <div className="bg-white rounded-xl p-6 border border-[#505b3f]/10">
-                  <h4 className="text-[#505b3f] font-serif text-lg mb-3">About</h4>
-                  <p className="text-[#505b3f]/80 leading-relaxed text-sm">
+                {/* Main Content Section */}
+                <div className="p-8 md:p-10 md:w-2/3 overflow-y-auto custom-scrollbar bg-white/50">
+                  <h4 className="text-[#505b3f] font-serif text-xl mb-4 flex items-center gap-2">
+                    About
+                    <div className="h-px bg-[#505b3f]/10 flex-grow ml-4"></div>
+                  </h4>
+                  <p className="text-[#505b3f]/80 leading-relaxed text-lg md:text-xl whitespace-pre-line">
                     {selectedMember.bio}
                   </p>
                 </div>
