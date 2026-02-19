@@ -27,18 +27,18 @@ const pillars = [
 
 export default function Philosophy() {
   return (
-    <section className="py-24 lg:py-32 bg-[#505b3f]">
+    <section className="py-24 lg:py-32 bg-[#d2ceab]">
       <div className="mx-auto max-w-7xl px-6">
         <div className="text-center mb-16">
-          <p className="text-[#bd9e7d] text-sm tracking-[0.3em] uppercase mb-4">
+          <p className="text-[#505b3f] text-sm tracking-[0.3em] uppercase mb-4 font-bold">
             Our Philosophy
           </p>
-          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#d2ceab] text-balance leading-tight">
+          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#505b3f] text-balance leading-tight">
             The oral cavity is the Gateway{" "}
             <br className="hidden sm:block" />
             to the body and to health
           </h2>
-          <p className="mt-6 text-[#d2ceab]/70 text-lg max-w-2xl mx-auto leading-relaxed">
+          <p className="mt-6 text-[#505b3f]/80 text-lg max-w-2xl mx-auto leading-relaxed">
             We address oral health as an integral component of systemic health, combining compassion, advanced technology, and international dental standards.
           </p>
         </div>
@@ -47,13 +47,13 @@ export default function Philosophy() {
           {pillars.map((pillar) => (
             <div
               key={pillar.title}
-              className="bg-[#505b3f] border border-[#d2ceab]/20 rounded-2xl p-8 text-center group hover:bg-[#d2ceab]/10 transition-colors"
+              className="bg-[#d2ceab] border border-[#505b3f]/20 rounded-2xl p-8 text-center group hover:bg-[#505b3f]/10 transition-colors"
             >
-              <div className="mx-auto mb-6 w-16 h-16 rounded-full bg-[#bd9e7d]/20 flex items-center justify-center">
-                <pillar.icon className="w-7 h-7 text-[#bd9e7d]" />
+              <div className="mx-auto mb-6 w-16 h-16 rounded-full bg-[#505b3f]/10 flex items-center justify-center">
+                <pillar.icon className="w-7 h-7 text-[#505b3f]" />
               </div>
-              <h3 className="font-serif text-xl text-[#d2ceab] mb-3">{pillar.title}</h3>
-              <p className="text-[#d2ceab]/60 leading-relaxed text-sm">{pillar.description}</p>
+              <h3 className="font-serif text-xl text-[#505b3f] mb-3">{pillar.title}</h3>
+              <p className="text-[#505b3f]/70 leading-relaxed text-sm">{pillar.description}</p>
             </div>
           ))}
         </div>

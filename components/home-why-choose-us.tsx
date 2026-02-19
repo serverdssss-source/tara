@@ -48,13 +48,13 @@ const reasons = [
 
 export default function WhyChooseUs() {
   return (
-    <section className="py-24 lg:py-32 bg-[#505b3f]">
+    <section className="py-24 lg:py-32 bg-[#fffdf5]">
       <div className="mx-auto max-w-7xl px-6">
         <div className="text-center mb-16">
-          <p className="text-[#bd9e7d] text-sm tracking-[0.3em] uppercase mb-4">
+          <p className="text-[#505b3f] text-sm tracking-[0.3em] uppercase mb-4 font-bold">
             Why Choose Us
           </p>
-          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#d2ceab] text-balance">
+          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#505b3f] text-balance">
             What Makes Us Different
           </h2>
         </div>
@@ -65,14 +65,14 @@ export default function WhyChooseUs() {
               key={reason.title}
               className="flex gap-5 group"
             >
-              <div className="w-14 h-14 rounded-2xl bg-[#bd9e7d]/20 flex items-center justify-center shrink-0 group-hover:bg-[#bd9e7d]/30 transition-colors">
-                <reason.icon className="w-6 h-6 text-[#bd9e7d]" />
+              <div className="w-14 h-14 rounded-2xl bg-[#505b3f]/10 flex items-center justify-center shrink-0 group-hover:bg-[#505b3f]/20 transition-colors">
+                <reason.icon className="w-6 h-6 text-[#505b3f]" />
               </div>
               <div>
-                <h3 className="font-serif text-lg text-[#d2ceab] mb-2">
+                <h3 className="font-serif text-lg text-[#505b3f] mb-2">
                   {reason.title}
                 </h3>
-                <p className="text-[#d2ceab]/60 text-sm leading-relaxed">
+                <p className="text-[#505b3f]/70 text-sm leading-relaxed">
                   {reason.description}
                 </p>
               </div>

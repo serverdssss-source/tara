@@ -95,11 +95,11 @@ export default function Navbar() {
 
         <div className="hidden lg:flex items-center gap-4">
           <a
-            href="tel:+919876543210"
+            href="tel:+919972896868"
             className="flex items-center gap-2 text-sm text-[#fffdf5]/80 hover:text-[#fffdf5] transition-colors"
           >
             <Phone className="h-4 w-4" />
-            +91 98765 43210
+            +91 9972896868
           </a>
           <Link
             href="/contact"

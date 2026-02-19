@@ -127,7 +127,7 @@ export default function Contact({ hideHeader = false }: { hideHeader?: boolean }
                 <div>
                   <p className="font-medium text-sm">Phone</p>
                   <p className="text-[#d2ceab]/70 text-sm mt-1">
-                    +91 98765 43210
+                    +91 9972896868
                   </p>
                 </div>
               </div>
@@ -161,7 +161,7 @@ export default function Contact({ hideHeader = false }: { hideHeader?: boolean }
                 teeth, and other urgent dental issues.
               </p>
               <a
-                href="tel:+919876543210"
+                href="tel:+919972896868"
                 className="inline-flex items-center gap-2 bg-[#505b3f] text-[#d2ceab] px-6 py-2.5 rounded-full text-sm font-medium hover:opacity-90 transition-opacity"
               >
                 <Phone className="w-4 h-4" />

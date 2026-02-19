@@ -72,19 +72,19 @@ export default function Team() {
                   Chief Dental Surgeon - TARA Dental Aesthetics and Wellness
                 </p>
               </div>
-              <p className="text-base leading-relaxed text-[#505b3f]">
+              <p className="text-lg leading-relaxed text-[#505b3f]">
                 Dr M. S. Srinivas Gowda is a renowned dental surgeon with over 22 years of clinical experience, committed to transforming smiles and advancing dental care in Bengaluru, with a career built on compassionate care and clinical excellence.
               </p>
-              <p className="text-base leading-relaxed text-[#505b3f]">
+              <p className="text-lg leading-relaxed text-[#505b3f]">
                 From the moment he began his practice, Dr Srinivas demonstrated a sincere commitment to patient-centric dentistry, blending technical precision with gentle, reassuring care for individuals and families alike. His extensive experience spans the full spectrum of dental treatments, including preventive care, dentures, cosmetic procedures, and advanced restorative solutions.
               </p>
-              <p className="text-base leading-relaxed text-[#505b3f]">
+              <p className="text-lg leading-relaxed text-[#505b3f]">
                 Dr Srinivas stays attuned to the latest developments in dentistry through continuous learning and professional engagement, ensuring every patient receives treatments that are both modern and effective. His approach is rooted in ethical transparency and personalized treatment planning, helping patients make informed decisions about their oral health.
               </p>
-              <p className="text-base leading-relaxed text-[#505b3f]">
+              <p className="text-lg leading-relaxed text-[#505b3f]">
                 Beloved by his patients for his calm demeanour and clear communication, Dr Srinivas brings meticulous attention to detail to every case - whether it's a routine dental cleaning or a complete smile makeover.
               </p>
-              <p className="text-base leading-relaxed text-[#505b3f]">
+              <p className="text-lg leading-relaxed text-[#505b3f]">
                 At TARA Dental Aesthetics and Wellness, Dr. M. S. Srinivas Gowda leads the team with a philosophy that blends clinical expertise, compassionate care, and a commitment to lifelong dental wellness. Our vision is to create healthy, confident smiles for every patient in Bengaluru through personalised, ethical, and state-of-the-art dental care.
               </p>
             </div>
