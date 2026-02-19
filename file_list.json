@@ -1,0 +1,3066 @@
+﻿[
+  {
+    "name": "src",
+    "type": "directory",
+    "mode": 16749,
+    "children": [
+      {
+        "name": ".gitattributes",
+        "type": "file",
+        "mode": 33206,
+        "uid": "ba3dfe345280bdcc5e817bb02cf49b8b8d8e1c4c"
+      },
+      {
+        "name": "tara",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": ".gitattributes",
+            "type": "file",
+            "mode": 33206,
+            "uid": "ba3dfe345280bdcc5e817bb02cf49b8b8d8e1c4c"
+          }
+        ]
+      },
+      {
+        "name": ".npmrc",
+        "type": "file",
+        "mode": 33206,
+        "uid": "0c908072737906977a704e111cf5c27d5e7e5bfe"
+      },
+      {
+        "name": "app",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "about",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "d7322ec1cbc2a6a73cff6bec2e542f283f55cc31"
+              }
+            ]
+          },
+          {
+            "name": "contact",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "2dd909b4164870b4cad7768f4bdc3ec85a1349c0"
+              }
+            ]
+          },
+          {
+            "name": "gallery",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "f114bb825f6650fbf44024ff67d7de3143629d74"
+              }
+            ]
+          },
+          {
+            "name": "globals.css",
+            "type": "file",
+            "mode": 33206,
+            "uid": "9aa63b787d46a4d3226cfacc14419d6a9b7b4bc4"
+          },
+          {
+            "name": "layout.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "261d1feac14acd3089ca60cbb17498b0e58afd70"
+          },
+          {
+            "name": "page.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "510bd5094375a8e0828b09fcc4cf30c4af701f0d"
+          },
+          {
+            "name": "services",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "[slug]",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "page.tsx",
+                    "type": "file",
+                    "mode": 33206,
+                    "uid": "5d79d9d4a5de2d5744e10987d2b1db8084eab679"
+                  }
+                ]
+              },
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "c304109e4f8d066a94ced65d2af17c1ce03c97cb"
+              }
+            ]
+          },
+          {
+            "name": "team",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "ce5ead4d3e780d3fd1ebe5df2c145cf44b008d30"
+              }
+            ]
+          },
+          {
+            "name": "testimonials",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "page.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "6d97e44ba88f64674168c440887d165569787468"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "components copy",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "about.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "69de710b6e68fc08ef68b543e3dd9047778de003"
+          },
+          {
+            "name": "contact.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "460d1d2efe3664e2fd014f5d7a28398bf0ae401c"
+          },
+          {
+            "name": "faq.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "37347953b1effeda5cfae54927e2b3c83045a652"
+          },
+          {
+            "name": "footer.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "b7c04291b86c724b72e51a1507a232c03577f738"
+          },
+          {
+            "name": "hero.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "2f30f30a9bcbfaf23e01efa27f3a205e65c746b1"
+          },
+          {
+            "name": "navbar.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "32f76ff7db4e5522a6045cbab436bd270a35456c"
+          },
+          {
+            "name": "philosophy.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "fcfa09706c9ed1451d2068435464006452237fcf"
+          },
+          {
+            "name": "process.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "bd1df75049944dcee3f60573c146900a5cbd47fa"
+          },
+          {
+            "name": "services.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "fb772397bc93a613db4eacd9c3a13417af5a85a3"
+          },
+          {
+            "name": "stats-banner.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "37ade7e5c7b7e8d49d4dcc28d90f08c9877a4cb6"
+          },
+          {
+            "name": "team.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "44816fe0014b380971e942875de0cfb5f15dc11e"
+          },
+          {
+            "name": "testimonials.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "242131b12ad2dc16efd14636fda348ce35e33e56"
+          },
+          {
+            "name": "theme-provider.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "c819ed840aee452099ca8be17002f283eea02384"
+          },
+          {
+            "name": "ui",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "accordion.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "f35f08c3485fb67f39ae222d1d1eda68a85f63b1"
+              },
+              {
+                "name": "alert-dialog.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "7bc8d128cf3493b2122ab66eacc22a43f3447cb5"
+              },
+              {
+                "name": "alert.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "ac9031014d77a9cf63b914a6c4a04e2e8ce82b84"
+              },
+              {
+                "name": "aspect-ratio.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "c6e6d96ed7b545804a5282ee19246737a01d62b3"
+              },
+              {
+                "name": "avatar.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "0c6b67837f34b2ae98bf63ce1a5107e9525f82ba"
+              },
+              {
+                "name": "badge.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "ad360fa94a7571509267c3b7cbf13b7cba9ed265"
+              },
+              {
+                "name": "breadcrumb.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "0599b233dc433b3a0c9502ac52d65277d1837c91"
+              },
+              {
+                "name": "button.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "94dd806909df9988b16b45ca3bef03897831c368"
+              },
+              {
+                "name": "calendar.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "7f25d413ff3ca7e14a3179135f8bef4178d8397e"
+              },
+              {
+                "name": "card.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "64ed50f4b2a2f25ca53660a42b186a20462d1e3e"
+              },
+              {
+                "name": "carousel.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "1cc0ed4e0a89131cf50516dca872a497babe63fd"
+              },
+              {
+                "name": "chart.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "04f15e102b4d2a041c48ee8c9d6ad69628a67616"
+              },
+              {
+                "name": "checkbox.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "e8b94b51f3c6e33bd9c71712273b25666ab99644"
+              },
+              {
+                "name": "collapsible.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "f922db91135465a5cd3060e5c67703c074097c1b"
+              },
+              {
+                "name": "command.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "a10cc7f02b1f84b08b9f4761aa7e6af2dbc213ee"
+              },
+              {
+                "name": "context-menu.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "7898480e50c6892b187f8eeef1199a52d08b0bd7"
+              },
+              {
+                "name": "dialog.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "ed9ccc31539be81738ae779a95330489f3348442"
+              },
+              {
+                "name": "drawer.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "bbbadbc956c683122a82e2d7ac616c0e8bd26bf1"
+              },
+              {
+                "name": "dropdown-menu.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "6c863ffbd7cb7d0d18b8d6f9c11eb593c5735ac7"
+              },
+              {
+                "name": "form.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "0162fc11c873fdf4e2f2d12e3cacd76fc1f1e0b3"
+              },
+              {
+                "name": "hover-card.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "91eede57b68c20dcf1aed42b213fd42168f6c6e5"
+              },
+              {
+                "name": "input-otp.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "b710c65999355cc106bfc9712d6c7026eed3b966"
+              },
+              {
+                "name": "input.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "8fbb411525393c2d986268f21711cc6466d87dd8"
+              },
+              {
+                "name": "label.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "16cfb61b9cb07afcc7a92211eb51195c7575a160"
+              },
+              {
+                "name": "menubar.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "94a53b00fd12f3f8cb5b6a8d4a51d417b2a30475"
+              },
+              {
+                "name": "navigation-menu.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "a14008db99e2b3dd93c28ddecc7a2f19c5fda4e1"
+              },
+              {
+                "name": "pagination.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "3f016753162270b4316131c2217f44bd9915a7cc"
+              },
+              {
+                "name": "popover.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "9c564fc3cf1fedc4664dda580c4c0d5521c12ef8"
+              },
+              {
+                "name": "progress.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "37a62b1ffc1af7fb86289cd6a233efce6567364f"
+              },
+              {
+                "name": "radio-group.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "56520d1a9a1155fb428f441c7b4051285fab3220"
+              },
+              {
+                "name": "resizable.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "b747e001bbc9cecd1ffe816d6cf930f42ce4ac73"
+              },
+              {
+                "name": "scroll-area.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "5bc88f9703d6db16e55fb464e3a132d1818cfa47"
+              },
+              {
+                "name": "select.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "ba5ad256e1c0226b2d3a3bf14e3351b0bda42e6d"
+              },
+              {
+                "name": "separator.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "9223840f34d0f4ae6957376898f20fae25996529"
+              },
+              {
+                "name": "sheet.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "8df1e013571db000cb145285e527079a6fa9ff8b"
+              },
+              {
+                "name": "sidebar.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "448ed24937775e2d72be442faac8b58ec2205041"
+              },
+              {
+                "name": "skeleton.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "29e3261f18c91544c051744f21a34c7ac50e71c5"
+              },
+              {
+                "name": "slider.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "a60acb7c57d54202eaeacebd187658951462d779"
+              },
+              {
+                "name": "sonner.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "4cb1bd355c0e177f90093f32d52c44c41f5a0342"
+              },
+              {
+                "name": "switch.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "df2c615feb9b91a3c717d910ff11b4524d349b92"
+              },
+              {
+                "name": "table.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "01a253e6457f12dfd3f31ea7363f0a09e65c4307"
+              },
+              {
+                "name": "tabs.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "861c18fbce814486aa9d1a0576c7db6a0dba89da"
+              },
+              {
+                "name": "textarea.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "d777605012371c528516cb90bc3fbaa68242c2fb"
+              },
+              {
+                "name": "toast.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "c57e30f8f1210e314d00c555558fbca7a2d1ff70"
+              },
+              {
+                "name": "toaster.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "2baaef7a7c34245a3d2e081a46b2b9062a66e12d"
+              },
+              {
+                "name": "toggle-group.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "ddc615e898f2026e84017d7c79f2e7c798b61502"
+              },
+              {
+                "name": "toggle.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "c88677cc1a480eca2c790bd725c36956bf4d93c8"
+              },
+              {
+                "name": "tooltip.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "b7eaa18864cc4ee6888423a3386ed1ee8e8dc54d"
+              },
+              {
+                "name": "use-mobile.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "87f5047c638a1643cf2d0d1d0ba9ee889aeb16b5"
+              },
+              {
+                "name": "use-toast.ts",
+                "type": "file",
+                "mode": 33206,
+                "uid": "01f3504e99808e840b8c051d8ea46e47ca0b0a88"
+              }
+            ]
+          },
+          {
+            "name": "why-choose-us.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "5bda1ffe564e0c0df1dfe548a45b2cfee460716d"
+          }
+        ]
+      },
+      {
+        "name": "components",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "faq.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "37347953b1effeda5cfae54927e2b3c83045a652"
+          },
+          {
+            "name": "hero.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "2f30f30a9bcbfaf23e01efa27f3a205e65c746b1"
+          },
+          {
+            "name": "stats-banner.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "37ade7e5c7b7e8d49d4dcc28d90f08c9877a4cb6"
+          },
+          {
+            "name": "testimonials.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "242131b12ad2dc16efd14636fda348ce35e33e56"
+          },
+          {
+            "name": "theme-provider.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "c819ed840aee452099ca8be17002f283eea02384"
+          },
+          {
+            "name": "ui",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "accordion.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "f35f08c3485fb67f39ae222d1d1eda68a85f63b1"
+              },
+              {
+                "name": "alert-dialog.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "7bc8d128cf3493b2122ab66eacc22a43f3447cb5"
+              },
+              {
+                "name": "alert.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "ac9031014d77a9cf63b914a6c4a04e2e8ce82b84"
+              },
+              {
+                "name": "aspect-ratio.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "c6e6d96ed7b545804a5282ee19246737a01d62b3"
+              },
+              {
+                "name": "avatar.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "0c6b67837f34b2ae98bf63ce1a5107e9525f82ba"
+              },
+              {
+                "name": "badge.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "ad360fa94a7571509267c3b7cbf13b7cba9ed265"
+              },
+              {
+                "name": "breadcrumb.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "0599b233dc433b3a0c9502ac52d65277d1837c91"
+              },
+              {
+                "name": "button.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "94dd806909df9988b16b45ca3bef03897831c368"
+              },
+              {
+                "name": "calendar.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "7f25d413ff3ca7e14a3179135f8bef4178d8397e"
+              },
+              {
+                "name": "card.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "64ed50f4b2a2f25ca53660a42b186a20462d1e3e"
+              },
+              {
+                "name": "carousel.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "1cc0ed4e0a89131cf50516dca872a497babe63fd"
+              },
+              {
+                "name": "chart.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "04f15e102b4d2a041c48ee8c9d6ad69628a67616"
+              },
+              {
+                "name": "checkbox.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "e8b94b51f3c6e33bd9c71712273b25666ab99644"
+              },
+              {
+                "name": "collapsible.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "f922db91135465a5cd3060e5c67703c074097c1b"
+              },
+              {
+                "name": "command.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "a10cc7f02b1f84b08b9f4761aa7e6af2dbc213ee"
+              },
+              {
+                "name": "context-menu.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "7898480e50c6892b187f8eeef1199a52d08b0bd7"
+              },
+              {
+                "name": "dialog.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "ed9ccc31539be81738ae779a95330489f3348442"
+              },
+              {
+                "name": "drawer.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "bbbadbc956c683122a82e2d7ac616c0e8bd26bf1"
+              },
+              {
+                "name": "dropdown-menu.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "6c863ffbd7cb7d0d18b8d6f9c11eb593c5735ac7"
+              },
+              {
+                "name": "form.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "0162fc11c873fdf4e2f2d12e3cacd76fc1f1e0b3"
+              },
+              {
+                "name": "hover-card.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "91eede57b68c20dcf1aed42b213fd42168f6c6e5"
+              },
+              {
+                "name": "input-otp.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "b710c65999355cc106bfc9712d6c7026eed3b966"
+              },
+              {
+                "name": "input.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "8fbb411525393c2d986268f21711cc6466d87dd8"
+              },
+              {
+                "name": "label.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "16cfb61b9cb07afcc7a92211eb51195c7575a160"
+              },
+              {
+                "name": "menubar.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "94a53b00fd12f3f8cb5b6a8d4a51d417b2a30475"
+              },
+              {
+                "name": "navigation-menu.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "a14008db99e2b3dd93c28ddecc7a2f19c5fda4e1"
+              },
+              {
+                "name": "pagination.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "3f016753162270b4316131c2217f44bd9915a7cc"
+              },
+              {
+                "name": "popover.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "9c564fc3cf1fedc4664dda580c4c0d5521c12ef8"
+              },
+              {
+                "name": "progress.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "37a62b1ffc1af7fb86289cd6a233efce6567364f"
+              },
+              {
+                "name": "radio-group.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "56520d1a9a1155fb428f441c7b4051285fab3220"
+              },
+              {
+                "name": "resizable.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "b747e001bbc9cecd1ffe816d6cf930f42ce4ac73"
+              },
+              {
+                "name": "scroll-area.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "5bc88f9703d6db16e55fb464e3a132d1818cfa47"
+              },
+              {
+                "name": "select.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "ba5ad256e1c0226b2d3a3bf14e3351b0bda42e6d"
+              },
+              {
+                "name": "separator.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "9223840f34d0f4ae6957376898f20fae25996529"
+              },
+              {
+                "name": "sheet.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "8df1e013571db000cb145285e527079a6fa9ff8b"
+              },
+              {
+                "name": "sidebar.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "448ed24937775e2d72be442faac8b58ec2205041"
+              },
+              {
+                "name": "skeleton.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "29e3261f18c91544c051744f21a34c7ac50e71c5"
+              },
+              {
+                "name": "slider.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "a60acb7c57d54202eaeacebd187658951462d779"
+              },
+              {
+                "name": "sonner.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "4cb1bd355c0e177f90093f32d52c44c41f5a0342"
+              },
+              {
+                "name": "switch.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "df2c615feb9b91a3c717d910ff11b4524d349b92"
+              },
+              {
+                "name": "table.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "01a253e6457f12dfd3f31ea7363f0a09e65c4307"
+              },
+              {
+                "name": "tabs.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "861c18fbce814486aa9d1a0576c7db6a0dba89da"
+              },
+              {
+                "name": "textarea.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "d777605012371c528516cb90bc3fbaa68242c2fb"
+              },
+              {
+                "name": "toast.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "c57e30f8f1210e314d00c555558fbca7a2d1ff70"
+              },
+              {
+                "name": "toaster.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "2baaef7a7c34245a3d2e081a46b2b9062a66e12d"
+              },
+              {
+                "name": "toggle-group.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "ddc615e898f2026e84017d7c79f2e7c798b61502"
+              },
+              {
+                "name": "toggle.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "c88677cc1a480eca2c790bd725c36956bf4d93c8"
+              },
+              {
+                "name": "tooltip.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "b7eaa18864cc4ee6888423a3386ed1ee8e8dc54d"
+              },
+              {
+                "name": "use-mobile.tsx",
+                "type": "file",
+                "mode": 33206,
+                "uid": "87f5047c638a1643cf2d0d1d0ba9ee889aeb16b5"
+              },
+              {
+                "name": "use-toast.ts",
+                "type": "file",
+                "mode": 33206,
+                "uid": "01f3504e99808e840b8c051d8ea46e47ca0b0a88"
+              }
+            ]
+          },
+          {
+            "name": "why-choose-us.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "5bda1ffe564e0c0df1dfe548a45b2cfee460716d"
+          },
+          {
+            "name": "about-cta.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "0a901439245f2b8057da1c6834179272d5472408"
+          },
+          {
+            "name": "about.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "e4ef5ed0bbb7ff1b6e6993b44382704c0247f6e6"
+          },
+          {
+            "name": "contact.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "56e7e389e1687a0a4f34c4552e0fb55baa188d8a"
+          },
+          {
+            "name": "footer.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "cb4885075d5e98a630017830e7cf5b00786ed21f"
+          },
+          {
+            "name": "gallery.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "36fc1df25ff4a5f69d16a7ca8a334350e9769cb2"
+          },
+          {
+            "name": "home-about.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "bbd2007abc550fe8de9d89e1049429c08da28b3e"
+          },
+          {
+            "name": "home-hero.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "46aad999fef4d58a1ed40a65abba7a321f0ac67e"
+          },
+          {
+            "name": "home-philosophy.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "9e36f0bf11af80773808f4bce5f41fd51b680b2a"
+          },
+          {
+            "name": "home-process.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "57c39fd0876f0507038b6459bc51816768197af2"
+          },
+          {
+            "name": "home-services.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "ac735b1920997de882e44fd71ab6bc18fd62fb68"
+          },
+          {
+            "name": "home-stats-banner.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "0b2abdb5e60d8c8823aba902a90b0c255801cfe9"
+          },
+          {
+            "name": "home-team.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "f10963fdb699307fe3b929c18ff1ff0fc75d2252"
+          },
+          {
+            "name": "home-testimonials.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "73dfbafb8ec0e764a88b44bf5f35a33851281f9d"
+          },
+          {
+            "name": "home-why-choose-us.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "3021ad4a32ec4b5172822b7eafc1e3432e10c0cb"
+          },
+          {
+            "name": "navbar.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "2de79348da67e7ff771e2be1e3d0fdc084632f19"
+          },
+          {
+            "name": "page-banner.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "bd8748cef52bc87e744d605cfb08caaf482f7084"
+          },
+          {
+            "name": "philosophy.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "271c7db8d6f6f772d4b81505db397571650ab0bb"
+          },
+          {
+            "name": "process.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "6940eca93a38b1a123a5c71bf5eea9666c15f74e"
+          },
+          {
+            "name": "services.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "7cf705d0a749d95eb4abef869b6a35487d79e96a"
+          },
+          {
+            "name": "team.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "fa3055de14588ea68a7b3677b739df6c37ef3b35"
+          },
+          {
+            "name": "testimonials-grid.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "5f76d0c1e5240d4ff7c9aeda8f1542b254a4f1af"
+          }
+        ]
+      },
+      {
+        "name": "hooks",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "use-mobile.tsx",
+            "type": "file",
+            "mode": 33206,
+            "uid": "87f5047c638a1643cf2d0d1d0ba9ee889aeb16b5"
+          },
+          {
+            "name": "use-toast.ts",
+            "type": "file",
+            "mode": 33206,
+            "uid": "01f3504e99808e840b8c051d8ea46e47ca0b0a88"
+          }
+        ]
+      },
+      {
+        "name": "components.json",
+        "type": "file",
+        "mode": 33206,
+        "uid": "447b9b9c694ace1862fe8fa6c15dc58da06b1860"
+      },
+      {
+        "name": "debug_gallery.html",
+        "type": "file",
+        "mode": 33206,
+        "uid": "f25a8a08931b1ec802355f0fd3b88d6bad351faa"
+      },
+      {
+        "name": "f",
+        "type": "directory",
+        "mode": 16822
+      },
+      {
+        "name": "public",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "images",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "hero",
+                "type": "directory",
+                "mode": 16822
+              },
+              {
+                "name": "banner-website.png",
+                "type": "file",
+                "mode": 33206,
+                "uid": "ebd8c7fe7971b8700f8a9452fa86336f7a470123"
+              },
+              {
+                "name": "BANNER WEBSITE (1).png",
+                "type": "file",
+                "mode": 33206,
+                "uid": "74937e0552e69dc0c8b79dc01e8863175a5b0ef2"
+              },
+              {
+                "name": "about-bg.jpg",
+                "type": "file",
+                "mode": 33206,
+                "uid": "535efb1d9f637f84c1f2f23979b6efd224b8091e"
+              },
+              {
+                "name": "about-clinic.webp",
+                "type": "file",
+                "mode": 33206,
+                "uid": "38cfe8ca8fa1d0b0ad566b17b4e9dee4f59e3ecf"
+              },
+              {
+                "name": "gallery",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "gallery-7.webp",
+                    "type": "file",
+                    "mode": 33206,
+                    "uid": "38cfe8ca8fa1d0b0ad566b17b4e9dee4f59e3ecf"
+                  },
+                  {
+                    "name": "gallery-5.webp",
+                    "type": "file",
+                    "mode": 33206,
+                    "uid": "e516d7b1dcb665b326c5c26d19f3b245a2f65310"
+                  },
+                  {
+                    "name": "two.webp",
+                    "type": "file",
+                    "mode": 33206,
+                    "uid": "a19e5aa913bf987830a6bacd3840f797114fc7e1"
+                  }
+                ]
+              },
+              {
+                "name": "two.webp",
+                "type": "file",
+                "mode": 33206,
+                "uid": "a19e5aa913bf987830a6bacd3840f797114fc7e1"
+              },
+              {
+                "name": "services",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "bone-grafting",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "image.png",
+                        "type": "file",
+                        "mode": 33206,
+                        "uid": "7e34f76727470c21e9b1dbea562f07438287564c"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "consultations",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "image.png",
+                        "type": "file",
+                        "mode": 33206,
+                        "uid": "5ec1f80c7a71dbac94b31148ab4672f97015022c"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "cosmetic-dentistry",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "image.png",
+                        "type": "file",
+                        "mode": 33206,
+                        "uid": "a4d1f5f8541af4786f0514efb4c01d481e82ecd8"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "cosmetic-restorations",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "image.png",
+                        "type": "file",
+                        "mode": 33206,
+                        "uid": "c13d959c059a08f3e44ddbfe31887b0e40dd6608"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "dental-implants",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "image.png",
+                        "type": "file",
+                        "mode": 33206,
+                        "uid": "3c4ee0f0649faa4bcfc3cb7a05c34434024c881b"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "family-dentistry",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "image.png",
+                        "type": "file",
+                        "mode": 33206,
+                        "uid": "861daed152ccbf2338129e047a85efab6b71fecd"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "gum-care",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "image.png",
+                        "type": "file",
+                        "mode": 33206,
+                        "uid": "7500a2cb16deefc00d2729c70978a9757873e23d"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "implant-prosthetics",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "image.png",
+                        "type": "file",
+                        "mode": 33206,
+                        "uid": "91f78d0bb8203d16333e2726d031a540f63bc62a"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "oral-surgery",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "image.png",
+                        "type": "file",
+                        "mode": 33206,
+                        "uid": "e026ccbc081ffb3c70d7a661d4877828db1db4ab"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "orthodontics-braces",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "image.png",
+                        "type": "file",
+                        "mode": 33206,
+                        "uid": "656e874d9f67a731b0e30cb9ccf4458ca96b58ae"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "preventive-general-dentistry",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "image.png",
+                        "type": "file",
+                        "mode": 33206,
+                        "uid": "5e6bfee0f2d48b4c195c8d24d70869c580678320"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "single-day-rct",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "image.png",
+                        "type": "file",
+                        "mode": 33206,
+                        "uid": "349d93cbc064b894a7827bc0c1a188e5f1916ab2"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "smile-makeover",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "image.png",
+                        "type": "file",
+                        "mode": 33206,
+                        "uid": "026c0756300965b13ee56449a174e70c68ead0f1"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "tmj-treatments",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "image.png",
+                        "type": "file",
+                        "mode": 33206,
+                        "uid": "85a76f681d698750a578e7045f120e6ddab71537"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "BANNER WEBSITE.png",
+            "type": "file",
+            "mode": 33206,
+            "uid": "ebd8c7fe7971b8700f8a9452fa86336f7a470123"
+          },
+          {
+            "name": "VIDEO.mp4",
+            "type": "file",
+            "mode": 33206,
+            "uid": "05f8b6a4b3e864fd63f2bc5b265372eef13dd1dd"
+          },
+          {
+            "name": "hero",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "1.jpg",
+                "type": "file",
+                "mode": 33206,
+                "uid": "8aceca19337b1808dd74c653dee35611e65be052"
+              },
+              {
+                "name": "2.jpg",
+                "type": "file",
+                "mode": 33206,
+                "uid": "7c633739520987d888d3175ebe86921df3319d2c"
+              },
+              {
+                "name": "3.jpg",
+                "type": "file",
+                "mode": 33206,
+                "uid": "f41e98725c302765891469550b994d10c095c94e"
+              }
+            ]
+          },
+          {
+            "name": "logo.png",
+            "type": "file",
+            "mode": 33206,
+            "uid": "d047db3179f461755c4798ccaabd6e1651afa13f"
+          }
+        ]
+      },
+      {
+        "name": "lib",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "service-page-data.ts",
+            "type": "file",
+            "mode": 33206,
+            "uid": "964818298e929fda21c9d03c722b3645e714ca17"
+          },
+          {
+            "name": "services-data.ts",
+            "type": "file",
+            "mode": 33206,
+            "uid": "51ad35a52f46452f9fd19e9ef0fbcdfc177a2e71"
+          },
+          {
+            "name": "utils.ts",
+            "type": "file",
+            "mode": 33206,
+            "uid": "6ed53d5424edcf4412ed2f5a33953fb00d1b34f6"
+          }
+        ]
+      },
+      {
+        "name": "next-env.d.ts",
+        "type": "file",
+        "mode": 33206,
+        "uid": "9b605831d83ff0c291a1bdde0576cd834ca61255"
+      },
+      {
+        "name": "next.config.mjs",
+        "type": "file",
+        "mode": 33206,
+        "uid": "7b9ecfe48b328f2016fa61105c2718f40e0ac18f"
+      },
+      {
+        "name": "package-lock.json",
+        "type": "file",
+        "mode": 33206,
+        "uid": "1434abd10315979a74e6cdd456d42728a3242517"
+      },
+      {
+        "name": "package.json",
+        "type": "file",
+        "mode": 33206,
+        "uid": "1c85d0489433f7b471c2c103d51d44f489fef1ea"
+      },
+      {
+        "name": "postcss.config.mjs",
+        "type": "file",
+        "mode": 33206,
+        "uid": "c7d7722a576e92891d5b3864af2a1ef7159d3602"
+      },
+      {
+        "name": "scrape_gallery.py",
+        "type": "file",
+        "mode": 33206,
+        "uid": "dab8ee1c92db9ca5cf317ffc5b8cd4693f4fe17f"
+      },
+      {
+        "name": "styles",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "globals.css",
+            "type": "file",
+            "mode": 33206,
+            "uid": "4c5ceb8252e95d92462984bf814a298d805ed0a6"
+          }
+        ]
+      },
+      {
+        "name": "tailwind.config.ts",
+        "type": "file",
+        "mode": 33206,
+        "uid": "967afca8abd75f1d85ea967f256f365e1e455276"
+      },
+      {
+        "name": "tsconfig.json",
+        "type": "file",
+        "mode": 33206,
+        "uid": "1832f607bf7ded6d5ab3f36bea6e966e8dc60169"
+      }
+    ]
+  },
+  {
+    "name": "out",
+    "type": "directory",
+    "mode": 16749,
+    "children": [
+      {
+        "name": "services",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "[slug]",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "[slug].rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "bone-grafting.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "bone-grafting.segments",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "_full.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_head.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_index.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_tree.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "services",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "$d$slug",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "__PAGE__.segment.rsc",
+                        "type": "lambda",
+                        "mode": 49590,
+                        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "$d$slug.segment.rsc",
+                    "type": "lambda",
+                    "mode": 49590,
+                    "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                  }
+                ]
+              },
+              {
+                "name": "services.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "consultations.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "consultations.segments",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "_full.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_head.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_index.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_tree.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "services",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "$d$slug",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "__PAGE__.segment.rsc",
+                        "type": "lambda",
+                        "mode": 49590,
+                        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "$d$slug.segment.rsc",
+                    "type": "lambda",
+                    "mode": 49590,
+                    "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                  }
+                ]
+              },
+              {
+                "name": "services.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "bone-grafting",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "consultations",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "cosmetic-dentistry.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "cosmetic-dentistry.segments",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "_full.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_head.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_index.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_tree.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "services",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "$d$slug",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "__PAGE__.segment.rsc",
+                        "type": "lambda",
+                        "mode": 49590,
+                        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "$d$slug.segment.rsc",
+                    "type": "lambda",
+                    "mode": 49590,
+                    "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                  }
+                ]
+              },
+              {
+                "name": "services.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "cosmetic-restorations.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "cosmetic-restorations.segments",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "_full.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_head.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_index.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_tree.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "services",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "$d$slug",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "__PAGE__.segment.rsc",
+                        "type": "lambda",
+                        "mode": 49590,
+                        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "$d$slug.segment.rsc",
+                    "type": "lambda",
+                    "mode": 49590,
+                    "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                  }
+                ]
+              },
+              {
+                "name": "services.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "cosmetic-dentistry",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "cosmetic-restorations",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "dental-implants.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "dental-implants.segments",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "_full.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_head.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_index.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_tree.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "services",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "$d$slug",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "__PAGE__.segment.rsc",
+                        "type": "lambda",
+                        "mode": 49590,
+                        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "$d$slug.segment.rsc",
+                    "type": "lambda",
+                    "mode": 49590,
+                    "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                  }
+                ]
+              },
+              {
+                "name": "services.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "family-dentistry.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "family-dentistry.segments",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "_full.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_head.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_index.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_tree.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "services",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "$d$slug",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "__PAGE__.segment.rsc",
+                        "type": "lambda",
+                        "mode": 49590,
+                        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "$d$slug.segment.rsc",
+                    "type": "lambda",
+                    "mode": 49590,
+                    "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                  }
+                ]
+              },
+              {
+                "name": "services.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "dental-implants",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "family-dentistry",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "gum-care.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "gum-care.segments",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "_full.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_head.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_index.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_tree.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "services",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "$d$slug",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "__PAGE__.segment.rsc",
+                        "type": "lambda",
+                        "mode": 49590,
+                        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "$d$slug.segment.rsc",
+                    "type": "lambda",
+                    "mode": 49590,
+                    "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                  }
+                ]
+              },
+              {
+                "name": "services.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "implant-prosthetics.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "implant-prosthetics.segments",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "_full.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_head.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_index.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_tree.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "services",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "$d$slug",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "__PAGE__.segment.rsc",
+                        "type": "lambda",
+                        "mode": 49590,
+                        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "$d$slug.segment.rsc",
+                    "type": "lambda",
+                    "mode": 49590,
+                    "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                  }
+                ]
+              },
+              {
+                "name": "services.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "gum-care",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "implant-prosthetics",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "oral-surgery.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "oral-surgery",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "oral-surgery.segments",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "_full.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_head.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_index.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_tree.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "services",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "$d$slug",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "__PAGE__.segment.rsc",
+                        "type": "lambda",
+                        "mode": 49590,
+                        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "$d$slug.segment.rsc",
+                    "type": "lambda",
+                    "mode": 49590,
+                    "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                  }
+                ]
+              },
+              {
+                "name": "services.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "orthodontics-braces.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "orthodontics-braces.segments",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "_full.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_head.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_index.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_tree.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "services",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "$d$slug",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "__PAGE__.segment.rsc",
+                        "type": "lambda",
+                        "mode": 49590,
+                        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "$d$slug.segment.rsc",
+                    "type": "lambda",
+                    "mode": 49590,
+                    "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                  }
+                ]
+              },
+              {
+                "name": "services.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "orthodontics-braces",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "preventive-general-dentistry.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "preventive-general-dentistry.segments",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "_full.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_head.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_index.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_tree.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "services",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "$d$slug",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "__PAGE__.segment.rsc",
+                        "type": "lambda",
+                        "mode": 49590,
+                        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "$d$slug.segment.rsc",
+                    "type": "lambda",
+                    "mode": 49590,
+                    "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                  }
+                ]
+              },
+              {
+                "name": "services.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "preventive-general-dentistry",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "single-day-rct.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "single-day-rct.segments",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "_full.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_head.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_index.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_tree.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "services",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "$d$slug",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "__PAGE__.segment.rsc",
+                        "type": "lambda",
+                        "mode": 49590,
+                        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "$d$slug.segment.rsc",
+                    "type": "lambda",
+                    "mode": 49590,
+                    "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                  }
+                ]
+              },
+              {
+                "name": "services.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "single-day-rct",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "smile-makeover.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "smile-makeover.segments",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "_full.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_head.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_index.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_tree.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "services",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "$d$slug",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "__PAGE__.segment.rsc",
+                        "type": "lambda",
+                        "mode": 49590,
+                        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "$d$slug.segment.rsc",
+                    "type": "lambda",
+                    "mode": 49590,
+                    "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                  }
+                ]
+              },
+              {
+                "name": "services.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "smile-makeover",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "tmj-treatments.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "tmj-treatments.segments",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "_full.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_head.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_index.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "_tree.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              },
+              {
+                "name": "services",
+                "type": "directory",
+                "mode": 16749,
+                "children": [
+                  {
+                    "name": "$d$slug",
+                    "type": "directory",
+                    "mode": 16749,
+                    "children": [
+                      {
+                        "name": "__PAGE__.segment.rsc",
+                        "type": "lambda",
+                        "mode": 49590,
+                        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "$d$slug.segment.rsc",
+                    "type": "lambda",
+                    "mode": 49590,
+                    "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+                  }
+                ]
+              },
+              {
+                "name": "services.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "tmj-treatments",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          }
+        ]
+      },
+      {
+        "name": "_global-error",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      },
+      {
+        "name": "_global-error.rsc",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      },
+      {
+        "name": "_global-error.segments",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "__PAGE__.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_full.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_head.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_index.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_tree.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          }
+        ]
+      },
+      {
+        "name": "_not-found",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      },
+      {
+        "name": "_not-found.rsc",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      },
+      {
+        "name": "_not-found.segments",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "_full.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_head.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_index.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_not-found",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "__PAGE__.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "_not-found.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_tree.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          }
+        ]
+      },
+      {
+        "name": "about",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      },
+      {
+        "name": "about.rsc",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      },
+      {
+        "name": "about.segments",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "_full.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_head.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_index.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_tree.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "about",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "__PAGE__.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "about.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          }
+        ]
+      },
+      {
+        "name": "contact",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      },
+      {
+        "name": "contact.rsc",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      },
+      {
+        "name": "contact.segments",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "_full.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_head.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_index.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_tree.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "contact",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "__PAGE__.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "contact.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          }
+        ]
+      },
+      {
+        "name": "gallery",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      },
+      {
+        "name": "gallery.rsc",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      },
+      {
+        "name": "gallery.segments",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "_full.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_head.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_index.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_tree.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "gallery",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "__PAGE__.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "gallery.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          }
+        ]
+      },
+      {
+        "name": "index",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      },
+      {
+        "name": "index.rsc",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      },
+      {
+        "name": "index.segments",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "__PAGE__.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_full.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_head.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_index.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_tree.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_full.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          }
+        ]
+      },
+      {
+        "name": "services.rsc",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      },
+      {
+        "name": "services.segments",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "_full.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_head.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_index.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_tree.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "services",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "__PAGE__.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "services.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          }
+        ]
+      },
+      {
+        "name": "team",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      },
+      {
+        "name": "team.rsc",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      },
+      {
+        "name": "team.segments",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "_full.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_head.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_index.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_tree.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "team",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "__PAGE__.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "team.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          }
+        ]
+      },
+      {
+        "name": "testimonials",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      },
+      {
+        "name": "testimonials.rsc",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      },
+      {
+        "name": "testimonials.segments",
+        "type": "directory",
+        "mode": 16749,
+        "children": [
+          {
+            "name": "_full.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_head.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_index.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "_tree.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          },
+          {
+            "name": "testimonials",
+            "type": "directory",
+            "mode": 16749,
+            "children": [
+              {
+                "name": "__PAGE__.segment.rsc",
+                "type": "lambda",
+                "mode": 49590,
+                "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+              }
+            ]
+          },
+          {
+            "name": "testimonials.segment.rsc",
+            "type": "lambda",
+            "mode": 49590,
+            "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+          }
+        ]
+      },
+      {
+        "name": "index",
+        "type": "lambda",
+        "mode": 49590,
+        "uid": "team_DYL5VYwAns0vbj31YxlV8lIf-dc18f9842340ec8792014ea58d3f220220"
+      }
+    ]
+  }
+]
