@@ -25,7 +25,7 @@ export default function Hero() {
           and holistic wellness.
         </h1>
         <p className="text-[#d2ceab]/80 text-lg max-w-xl mx-auto mb-10 leading-relaxed">
-          Where oral health meets aesthetics and overall well-being — treating more than just teeth.
+          Where oral health meets aesthetics and overall <br /> well-being — treating more than just teeth.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link

@@ -5,7 +5,10 @@ const pillars = [
     icon: Heart,
     title: "Holistic Dental Philosophy",
     description:
-      "We connect oral health, aesthetics, and overall well-being — treating more than just teeth.",
+      <>
+        We connect oral health, aesthetics, and overall <br />
+        well-being treating more than just teeth.
+      </>
   },
   {
     icon: Shield,
@@ -30,7 +33,7 @@ export default function Philosophy() {
             Our Philosophy
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#d2ceab] text-balance leading-tight">
-            The oral cavity is the gateway
+            The oral cavity is the Gateway
             <br className="hidden sm:block" />
             to the body and to health
           </h2>

@@ -44,9 +44,8 @@ export const facilityFeatures = [
 ]
 
 export const openingHours = [
-    { day: "Monday - Friday", time: "10AM - 7PM" },
-    { day: "Saturday", time: "10AM - 5PM" },
-    { day: "Sunday", time: "Closed" }
+    { day: "Monday - Saturday", time: "10AM - 9:30PM" },
+    { day: "Sunday", time: "10AM - 12PM" }
 ]
 
 export const usps = [

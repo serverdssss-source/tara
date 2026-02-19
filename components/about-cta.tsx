@@ -15,8 +15,8 @@ export default function AboutCTA() {
                             <p className="text-[#8b9974] text-sm tracking-[0.3em] uppercase mb-4 font-bold">
                                 Consultation
                             </p>
-                            <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-balance leading-tight">
-                                Your perfect smile is just a booking away!
+                            <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-balance leading-tight">
+                                Take the first step towards a <br /> healthier, brighter smile.
                             </h2>
                         </div>
 

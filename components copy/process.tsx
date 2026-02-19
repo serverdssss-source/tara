@@ -31,7 +31,7 @@ const steps = [
     title: "Maintain",
     subtitle: "Healthy Smile",
     description:
-      "Aftercare guidance and follow-ups help preserve your smile and prevent future issues.",
+      "After care guidance and follow-ups help preserve your smile and prevent future issues.",
   },
 ]
 

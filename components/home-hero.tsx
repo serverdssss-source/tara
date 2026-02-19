@@ -5,13 +5,26 @@ export default function HomeHero() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0">
-        <Image
-          src="/hero/1.jpg"
-          alt="Beautiful smile showcasing dental wellness"
-          fill
-          className="object-cover blur-[2px]"
-          priority
-        />
+        <div className="hidden md:block absolute inset-0">
+          <Image
+            src="/hero/1.jpg"
+            alt="Beautiful smile showcasing dental wellness"
+            fill
+            className="object-cover blur-[2px]"
+            priority
+          />
+        </div>
+        <div className="block md:hidden absolute inset-0">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+          >
+            <source src="/VIDEO.mp4" type="video/mp4" />
+          </video>
+        </div>
         <div className="absolute inset-0 bg-[#505b3f]/75" />
       </div>
 
@@ -25,7 +38,7 @@ export default function HomeHero() {
           and holistic wellness.
         </h1>
         <p className="text-[#d2ceab]/80 text-xl max-w-xl mx-auto mb-10 leading-relaxed">
-          Where oral health meets aesthetics and overall well-being — treating more than just teeth.
+          Where oral health meets aesthetics and overall <br /> well-being — treating more than just teeth.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
