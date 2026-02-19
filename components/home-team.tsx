@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Linkedin, Mail } from "lucide-react"
+import { useState } from "react"
 
 const team = [
   {
@@ -41,17 +42,52 @@ const team = [
 ]
 
 export default function Team() {
+  const [showBio, setShowBio] = useState(false)
+
+  const bioParagraphs = [
+    "Dr M. S. Srinivas Gowda is a renowned dental surgeon with over 22 years of clinical experience, committed to transforming smiles and advancing dental care in Bengaluru, with a career built on compassionate care and clinical excellence.",
+    "From the moment he began his practice, Dr Srinivas demonstrated a sincere commitment to patient-centric dentistry, blending technical precision with gentle, reassuring care for individuals and families alike. His extensive experience spans the full spectrum of dental treatments, including preventive care, dentures, cosmetic procedures, and advanced restorative solutions.",
+    "Dr Srinivas stays attuned to the latest developments in dentistry through continuous learning and professional engagement, ensuring every patient receives treatments that are both modern and effective. His approach is rooted in ethical transparency and personalized treatment planning, helping patients make informed decisions about their oral health.",
+    "Beloved by his patients for his calm demeanour and clear communication, Dr Srinivas brings meticulous attention to detail to every case - whether it's a routine dental cleaning or a complete smile makeover.",
+    "At TARA Dental Aesthetics and Wellness, Dr. M. S. Srinivas Gowda leads the team with a philosophy that blends clinical expertise, compassionate care, and a commitment to lifelong dental wellness. Our vision is to create healthy, confident smiles for every patient in Bengaluru through personalised, ethical, and state-of-the-art dental care.",
+  ]
+
   return (
     <section id="team" className="py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-start mb-16">
-          <div>
-            <p className="text-[#bd9e7d] text-sm tracking-[0.3em] uppercase mb-4">
-              Meet Our Team
-            </p>
-            <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-foreground leading-tight text-balance">
-              Helping you smile with confidence
-            </h2>
+          <div className="space-y-6">
+            <div>
+              <p className="text-[#bd9e7d] text-sm tracking-[0.3em] uppercase mb-4">
+                Meet Our Team
+              </p>
+              <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-foreground leading-tight text-balance">
+                Helping you smile with confidence
+              </h2>
+            </div>
+            <div className="bg-[#505b3f]/10 border border-[#505b3f]/20 rounded-2xl p-6 space-y-4">
+              <div>
+                <p className="font-serif text-xl text-[#505b3f]">Dr Srinivas Gowda, MS</p>
+                <p className="text-[#bd9e7d] text-xs uppercase tracking-[0.15em] mt-1">
+                  Chief Dental Surgeon - TARA Dental Aesthetics and Wellness
+                </p>
+              </div>
+              <p className="text-base leading-relaxed text-[#505b3f]">
+                Dr M. S. Srinivas Gowda is a renowned dental surgeon with over 22 years of clinical experience, committed to transforming smiles and advancing dental care in Bengaluru, with a career built on compassionate care and clinical excellence.
+              </p>
+              <p className="text-base leading-relaxed text-[#505b3f]">
+                From the moment he began his practice, Dr Srinivas demonstrated a sincere commitment to patient-centric dentistry, blending technical precision with gentle, reassuring care for individuals and families alike. His extensive experience spans the full spectrum of dental treatments, including preventive care, dentures, cosmetic procedures, and advanced restorative solutions.
+              </p>
+              <p className="text-base leading-relaxed text-[#505b3f]">
+                Dr Srinivas stays attuned to the latest developments in dentistry through continuous learning and professional engagement, ensuring every patient receives treatments that are both modern and effective. His approach is rooted in ethical transparency and personalized treatment planning, helping patients make informed decisions about their oral health.
+              </p>
+              <p className="text-base leading-relaxed text-[#505b3f]">
+                Beloved by his patients for his calm demeanour and clear communication, Dr Srinivas brings meticulous attention to detail to every case - whether it's a routine dental cleaning or a complete smile makeover.
+              </p>
+              <p className="text-base leading-relaxed text-[#505b3f]">
+                At TARA Dental Aesthetics and Wellness, Dr. M. S. Srinivas Gowda leads the team with a philosophy that blends clinical expertise, compassionate care, and a commitment to lifelong dental wellness. Our vision is to create healthy, confident smiles for every patient in Bengaluru through personalised, ethical, and state-of-the-art dental care.
+              </p>
+            </div>
           </div>
 
           <div className="relative rounded-3xl overflow-hidden aspect-[4/3]">
@@ -61,16 +97,31 @@ export default function Team() {
               fill
               className="object-cover"
             />
-            <div className="absolute bottom-0 left-0 right-0 bg-[#505b3f]/90 backdrop-blur-sm p-6">
+            <div className="absolute bottom-0 left-0 right-0 bg-[#505b3f]/90 backdrop-blur-sm p-6 space-y-3">
               <p className="font-serif text-lg text-[#d2ceab]">
                 Dr. M. S. Srinivas Gowda
               </p>
               <p className="text-[#bd9e7d] text-sm">
                 Chief Dental Surgeon | Founder
               </p>
-              <blockquote className="mt-3 text-[#d2ceab]/70 text-sm italic leading-relaxed">
-                {"\"At TARA, we address oral health as an integral component of systemic health.\""}
+              <blockquote className="text-[#d2ceab]/70 text-sm italic leading-relaxed">
+                {showBio
+                  ? bioParagraphs[0]
+                  : "\"At TARA, we address oral health as an integral component of systemic health.\""
+                }
               </blockquote>
+              <div className="space-y-3 text-[#d2ceab]/80 text-sm leading-relaxed">
+                {showBio &&
+                  bioParagraphs.slice(1).map((paragraph) => (
+                    <p key={paragraph}>{paragraph}</p>
+                  ))}
+              </div>
+              <button
+                onClick={() => setShowBio(!showBio)}
+                className="inline-flex text-[#bd9e7d] text-xs uppercase tracking-[0.2em] font-semibold hover:text-[#d2ceab] transition-colors"
+              >
+                {showBio ? "Show Less" : "Read More"}
+              </button>
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@
 
 import About from "@/components/about"
 import Philosophy from "@/components/philosophy"
-import WhyChooseUs from "@/components/why-choose-us"
+import WhyChooseUs from "@/components/home-why-choose-us"
 import StatsBanner from "@/components/stats-banner"
 import AboutCTA from "@/components/about-cta"
 import PageBanner from "@/components/page-banner"
