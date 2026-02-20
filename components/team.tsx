@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 import { X, ChevronRight, User } from "lucide-react"
 
@@ -134,20 +135,21 @@ export default function Team({ hideHeader = false }: { hideHeader?: boolean }) {
                   onClick={() => setSelectedMember(founder)}
                   className="relative rounded-[2rem] overflow-hidden cursor-pointer group h-[500px] w-full shadow-2xl"
                 >
-                  {/* Founder Image Placeholder - Replace with actual image */}
-                  <div className="absolute inset-0 bg-[#dcdec9] flex items-center justify-center">
-                    <span className="font-serif text-[10rem] text-[#505b3f]/20 font-bold leading-none select-none">SG</span>
-                  </div>
-                  {/* Image component would go here */}
-                  {/* <Image src="/path/to/founder.jpg" fill className="object-cover" /> */}
+                  {/* Founder Image */}
+                  <Image
+                    src="/Founder.png"
+                    alt="Dr. Srinivas Gowda"
+                    fill
+                    className="object-contain"
+                  />
 
                   {/* Dark Overlay Box */}
-                  <div className="absolute bottom-0 left-0 right-0 bg-[#505b3f] p-8 md:p-10 m-4 rounded-[1.5rem] backdrop-blur-sm bg-opacity-95 text-[#fffdf5]">
+                  <div className="absolute bottom-0 left-0 right-0 bg-[#505b3f] p-6 m-4 rounded-3xl backdrop-blur-sm bg-opacity-95 text-[#fffdf5]">
                     <h3 className="font-serif text-2xl md:text-3xl mb-1">{founder.name}</h3>
-                    <p className="text-[#bd9d7d] text-sm font-bold uppercase tracking-wider mb-4">
+                    <p className="text-[#bd9d7d] text-sm font-bold uppercase tracking-wider mb-2">
                       {founder.role.split(" | ")[0]} | Founder
                     </p>
-                    <p className="text-[#fffdf5]/80 text-sm md:text-base italic leading-relaxed mb-6">
+                    <p className="text-[#fffdf5]/80 text-sm md:text-base italic leading-relaxed mb-4">
                       "At TARA, we address oral health as an integral component of systemic health."
                     </p>
                     <button

@@ -11,7 +11,7 @@ export default function TeamPage() {
             <Navbar />
             <div className="pt-20">
                 <PageBanner title="Our Team" />
-                <Team hideHeader />
+                <Team />
             </div>
             <Footer />
         </main>

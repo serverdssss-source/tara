@@ -92,12 +92,12 @@ export default function Team() {
 
           <div className="relative rounded-3xl overflow-hidden aspect-[4/3]">
             <Image
-              src="/images/doctor-main.jpg"
+              src="/Founder.png"
               alt="Dr. Srinivas Gowda - Chief Dental Surgeon"
               fill
-              className="object-cover"
+              className="object-contain"
             />
-            <div className="absolute bottom-0 left-0 right-0 bg-[#505b3f]/90 backdrop-blur-sm p-6 space-y-3">
+            <div className="absolute bottom-0 left-0 right-0 bg-[#505b3f]/90 backdrop-blur-sm p-4 space-y-2">
               <p className="font-serif text-lg text-[#d2ceab]">
                 Dr. M. S. Srinivas Gowda
               </p>
