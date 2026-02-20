@@ -36,7 +36,7 @@ export default function Philosophy() {
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#505b3f] text-balance leading-tight">
             The oral cavity is the Gateway{" "}
             <br className="hidden sm:block" />
-            to the body and to health
+            to overall health
           </h2>
           <p className="mt-6 text-[#505b3f]/80 text-lg max-w-2xl mx-auto leading-relaxed">
             We address oral health as an integral component of systemic health, combining compassion, advanced technology, and international dental standards.

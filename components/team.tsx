@@ -123,8 +123,8 @@ export default function Team({ hideHeader = false }: { hideHeader?: boolean }) {
               <p className="text-[#bd9d7d] text-sm tracking-[0.2em] uppercase mb-6 font-bold">
                 Meet The Team
               </p>
-              <h2 className="font-serif text-3xl sm:text-5xl lg:text-6xl text-[#505b3f] leading-[1.1] text-balance mb-8">
-                Helping you smile <br /> with confidence.
+              <h2 className="font-serif text-3xl sm:text-5xl lg:text-4xl text-[#505b3f] leading-[1.1] text-balance mb-8">
+                Confident Smiles Start with  Our Expert Dental Care
               </h2>
             </div>
 
@@ -165,18 +165,12 @@ export default function Team({ hideHeader = false }: { hideHeader?: boolean }) {
           </div>
         )}
 
-        <div className="space-y-20">
-          {/* Residents Section */}
-          {residents.length > 0 && (
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {residents.map(member => <MemberCard key={member.name} member={member} />)}
-            </div>
-          )}
-
-          {/* Consultants Section */}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {consultants.map(member => <MemberCard key={member.name} member={member} />)}
-          </div>
+        {/* Team Grid */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          {/* Residents first, then Consultants */}
+          {[...residents, ...consultants].map(member => (
+            <MemberCard key={member.name} member={member} />
+          ))}
         </div>
 
       </div>

@@ -8,6 +8,10 @@ const team = [
     role: "Chief Dental Surgeon | Founder",
   },
   {
+    name: "Dr. Vignesh V",
+    role: "Resident - Associate Dentist",
+  },
+  {
     name: "Dr. Gautam Shetty",
     role: "Consultant Maxillofacial Prosthodontist & Implantologist",
   },
@@ -30,10 +34,6 @@ const team = [
   {
     name: "Dr. Manoranjan S. J.",
     role: "Consultant Periodontist",
-  },
-  {
-    name: "Dr. Vignesh V",
-    role: "Resident - Associate Dentist",
   },
   {
     name: "Dr. Dinesh Bhadrashetty",
@@ -61,8 +61,8 @@ export default function Team() {
               <p className="text-[#bd9e7d] text-sm tracking-[0.3em] uppercase mb-4">
                 Meet Our Team
               </p>
-              <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-foreground leading-tight text-balance">
-                Helping you smile with confidence
+              <h2 className="font-serif text-3xl sm:text-4xl lg:text-4xl text-foreground leading-tight text-balance">
+                Confident Smiles Start with Our Expert Dental Care
               </h2>
             </div>
             <div className="bg-[#505b3f]/10 border border-[#505b3f]/20 rounded-2xl p-6 space-y-4">
