@@ -18,7 +18,7 @@ export default function Gallery() {
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
                     <p className="text-[#fffdf5] text-sm tracking-[0.3em] uppercase mb-4">
-                        Our Work
+                        Our Clinic
                     </p>
                     <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#fffdf5] text-balance leading-tight">
                         Transforming Smiles

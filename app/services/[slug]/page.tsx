@@ -5,7 +5,7 @@ import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight, CheckCircle2, Download, Clock, MapPin, Phone } from "lucide-react"
+import { ArrowRight, CheckCircle2, Clock, MapPin, Phone } from "lucide-react"
 import fs from "fs"
 import path from "path"
 
@@ -157,11 +157,6 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
 
                     {/* Brochure & Contact */}
                     <div className="bg-white rounded-2xl p-8 border border-[#505b3f]/10 shadow-sm space-y-4">
-                        <button className="flex items-center justify-center gap-2 w-full py-3 bg-[#fffdf5] text-[#505b3f] border border-[#505b3f]/20 rounded-lg font-medium hover:bg-[#505b3f]/5 transition-colors group">
-                            <Download className="w-4 h-4 group-hover:scale-110 transition-transform" />
-                            Download Brochure
-                        </button>
-
                         <div className="pt-4 border-t border-[#505b3f]/10">
                             <p className="text-[#505b3f] font-serif mb-4">Ready to book?</p>
                             <Link href="/contact" className="flex items-center justify-center gap-2 w-full py-3 bg-[#8b9974] text-white rounded-lg font-medium hover:bg-[#505b3f] transition-colors">

@@ -36,9 +36,9 @@ At TARA Dental Aesthetics and Wellness, Dr. M. S. Srinivas Gowda leads the team 
     bio: "Dr. Prashanthi is a Consultant Oral and Maxillofacial Surgeon with 12 years of experience. She has advanced training and specialises in oral and maxillofacial trauma, temporomandibular joint (TMJ) surgeries, impacted teeth management, and dental implant procedures.",
   },
   {
-    name: "Dr. Shashikala V. Kumari",
+    name: "Dr. Shashikala V.",
     role: "Consultant Orthodontist & Dentofacial Orthopaedics Specialist",
-    bio: "Dr. Shashikala Kumari V is a Consultant Specialist in Dental Surgery in Orthodontics with 36 years of experience in Orthodontics and Dentofacial Orthopaedics. She specialises in treating malocclusion (improper bite) using braces and other orthodontic appliances to improve function and aesthetics.",
+    bio: "Dr. Shashikala V is a Consultant Specialist in Dental Surgery in Orthodontics with 36 years of experience in Orthodontics and Dentofacial Orthopaedics. She specialises in treating malocclusion (improper bite) using braces and other orthodontic appliances to improve function and aesthetics.",
   },
   {
     name: "Dr. Vani Hegde",
