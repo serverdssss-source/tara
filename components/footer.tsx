@@ -122,7 +122,7 @@ export default function Footer() {
       <div className="relative z-10 bg-[#505b3f]/50 border-t border-[#fffdf5]/10">
         <div className="mx-auto max-w-7xl px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-[#fffdf5]/70">
           <p>Copyright © 2026 – All Rights Reserved | taradentalwellness.com</p>
-          <p>Designed & Developed By Sripadastudios.com</p>
+
         </div>
       </div>
     </footer>
