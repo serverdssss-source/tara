@@ -60,6 +60,11 @@ At TARA Dental Aesthetics and Wellness, Dr. M. S. Srinivas Gowda leads the team 
     role: "Consultant Oral & Maxillofacial Surgeon | Specialist in Oral Implants",
     bio: "With over 33 years of clinical experience, Dr. Dinesh Bhadrashetty is a leading Oral & Maxillofacial Surgeon renowned for his expertise in advanced surgical care and oral implantology. Dr. Bhadrashetty combines precision, modern technology, and a patient-focused approach to deliver safe, effective solutions tailored for both functional and aesthetic outcomes. His deep experience in oral implants makes him a trusted expert in restoring missing teeth with long-lasting, natural-looking results.",
   },
+  {
+    name: "Dr. Nischitha A",
+    role: "Consultant Aesthetic Endodontist",
+    bio: "Dr. Nischitha A is a Consultant Aesthetic Endodontist & Restorative Dentist with an MDS in Conservative Dentistry and Endodontics. She specialises in smile makeovers, porcelain veneers, and professional teeth bleaching - combining precision endodontics with aesthetic dentistry to restore and enhance your natural smile.",
+  },
 ]
 
 // Separate team members
