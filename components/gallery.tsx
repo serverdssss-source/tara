@@ -2,15 +2,23 @@ import Image from "next/image"
 import { motion } from "framer-motion"
 
 const images = [
+    { src: "/images/gallery/IMG_2172.webp", alt: "TARA Dental Aesthetics and Wellness logo wall" },
+    { src: "/images/gallery/IMG_2153.webp", alt: "Reception and waiting area" },
+    { src: "/images/gallery/IMG_2187.webp", alt: "Treatment room with dental chair" },
+    { src: "/images/gallery/IMG_2181.webp", alt: "Consultation room" },
+    { src: "/images/gallery/IMG_2151.webp", alt: "Reception with TARA logo wall" },
+    { src: "/images/gallery/IMG_2185.webp", alt: "Clinic interior overview" },
+    { src: "/images/gallery/IMG_2188.webp", alt: "Treatment room with dental chair" },
+    { src: "/images/gallery/IMG_2182.webp", alt: "Consultation room" },
+    { src: "/images/gallery/IMG_2166.webp", alt: "Reception desk" },
+    { src: "/images/gallery/IMG_2186.webp", alt: "Clinic entrance" },
+    { src: "/images/gallery/IMG_2204.webp", alt: "Consultation cabin" },
+    { src: "/images/gallery/IMG_2175.webp", alt: "Reception and waiting area" },
+    { src: "/images/gallery/IMG_2174.webp", alt: "TARA logo wall at reception" },
     { src: "/images/gallery/gallery-5.webp", alt: "Dental Treatment Results" },
     { src: "/images/gallery/gallery-7.webp", alt: "Dental Treatment Results" },
     { src: "/images/gallery/two.webp", alt: "Dental Treatment Results" },
 ]
-
-// Select first 5 images for the static gallery
-const galleryImages = images.slice(0, 5);
-const row1 = galleryImages.slice(0, 3);
-const row2 = galleryImages.slice(3, 5);
 
 export default function Gallery() {
     return (
@@ -25,36 +33,18 @@ export default function Gallery() {
                     </h2>
                 </div>
 
-                <div className="flex flex-col gap-8 max-w-6xl mx-auto">
-                    {/* First Row - 3 Images */}
-                    <div className="grid md:grid-cols-3 gap-8">
-                        {row1.map((img, i) => (
-                            <div key={i} className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg group">
-                                <Image
-                                    src={img.src}
-                                    alt={img.alt}
-                                    fill
-                                    className="object-cover transition-transform duration-500 group-hover:scale-105"
-                                    sizes="(max-width: 768px) 100vw, 33vw"
-                                />
-                            </div>
-                        ))}
-                    </div>
-
-                    {/* Second Row - 2 Images Centered */}
-                    <div className="flex flex-col md:flex-row justify-center gap-8">
-                        {row2.map((img, i) => (
-                            <div key={i} className="relative w-full md:w-[calc(33.33%-1.33rem)] aspect-[4/3] rounded-2xl overflow-hidden shadow-lg group">
-                                <Image
-                                    src={img.src}
-                                    alt={img.alt}
-                                    fill
-                                    className="object-cover transition-transform duration-500 group-hover:scale-105"
-                                    sizes="(max-width: 768px) 100vw, 33vw"
-                                />
-                            </div>
-                        ))}
-                    </div>
+                <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+                    {images.map((img) => (
+                        <div key={img.src} className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg group">
+                            <Image
+                                src={img.src}
+                                alt={img.alt}
+                                fill
+                                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                            />
+                        </div>
+                    ))}
                 </div>
             </div>
         </section>
