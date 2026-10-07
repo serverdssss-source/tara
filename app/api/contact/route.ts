@@ -1,12 +1,20 @@
 import { NextResponse } from 'next/server';
-import { Resend } from 'resend';
+import nodemailer from 'nodemailer';
 
-// We don't initialize here to prevent Next.js build-time evaluation errors
-// if the env var isn't present during the static generation phase.
+// Nodemailer needs the Node.js runtime (not Edge)
+export const runtime = 'nodejs';
+
+// Escape user input before inserting it into the email HTML
+const escapeHtml = (value: string) =>
+    String(value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
 
 export async function POST(request: Request) {
     try {
-        const resend = new Resend(process.env.RESEND_API_KEY || '');
         const { name, phone, email, date, message } = await request.json();
 
         // Basic validation
@@ -17,38 +25,49 @@ export async function POST(request: Request) {
             );
         }
 
-        const { data, error } = await resend.emails.send({
-            from: 'care@taradentalwellness.com', // Must be verified in Resend
-            to: ['care@taradentalwellness.com'], // Address receiving notifications
-            replyTo: email, // If the clinic replies, it goes to the patient
-            subject: `New Appointment Request from ${name}`,
-            html: `
-        <h2>New Appointment Request</h2>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Phone:</strong> ${phone}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Preferred Date:</strong> ${date || 'Not specified'}</p>
-        <p><strong>Message/Concerns:</strong></p>
-        <p>${message.replace(/\n/g, '<br/>')}</p>
-      `,
-        });
-
-        if (error) {
-            console.error('Error sending email via Resend:', error);
+        if (!process.env.SMTP_USER || !process.env.SMTP_PASSWORD) {
+            console.error('SMTP_USER or SMTP_PASSWORD environment variable is not set.');
             return NextResponse.json(
-                { error: 'Failed to send appointment request.' },
+                { error: 'Email service is not configured. Please call us instead.' },
                 { status: 500 }
             );
         }
 
+        // Google Workspace SMTP (care@taradentalwellness.com + App Password)
+        const transporter = nodemailer.createTransport({
+            host: 'smtp.gmail.com',
+            port: 465,
+            secure: true,
+            auth: {
+                user: process.env.SMTP_USER,
+                pass: process.env.SMTP_PASSWORD,
+            },
+        });
+
+        await transporter.sendMail({
+            from: `"TARA Website" <${process.env.SMTP_USER}>`,
+            to: process.env.CONTACT_TO_EMAIL || 'care@taradentalwellness.com', // Address receiving notifications
+            replyTo: email, // If the clinic replies, it goes to the patient
+            subject: `New Appointment Request from ${name}`,
+            html: `
+        <h2>New Appointment Request</h2>
+        <p><strong>Name:</strong> ${escapeHtml(name)}</p>
+        <p><strong>Phone:</strong> ${escapeHtml(phone)}</p>
+        <p><strong>Email:</strong> ${escapeHtml(email)}</p>
+        <p><strong>Preferred Date:</strong> ${escapeHtml(date)}</p>
+        <p><strong>Message/Concerns:</strong></p>
+        <p>${escapeHtml(message).replace(/\n/g, '<br/>')}</p>
+      `,
+        });
+
         return NextResponse.json(
-            { success: true, message: 'Appointment request sent successfully.', data },
+            { success: true, message: 'Appointment request sent successfully.' },
             { status: 200 }
         );
     } catch (err) {
-        console.error('Internal server error in contact API:', err);
+        console.error('Error sending email via SMTP:', err);
         return NextResponse.json(
-            { error: 'An unexpected error occurred.' },
+            { error: 'Failed to send appointment request. Please try again or call us.' },
             { status: 500 }
         );
     }
